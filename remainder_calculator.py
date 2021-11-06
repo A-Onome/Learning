@@ -7,3 +7,4 @@ if result2 == 0:
     print(floor(result))
 else:
     print(str(floor(result))+" with a remainder of " +str(result2))
+#testing to see if i can commit and push directly from pyCharm
