@@ -1,9 +1,11 @@
-from math import *
-value1 = input("Enter first number: ")
-value2 = input("Enter second number: ")
-result = int(value1) / int(value2)
-result2 = int(value1) % int(value2)
-if result2 == 0:
-    print(floor(result))
+age = int(input("Enter age: "))
+if age < 13:
+    print ("You are a child")
 else:
-    print(str(floor(result))+" with a remainder of " +str(result2))
+    if age < 20:
+        print("You are a teenager")
+    else:
+        if age < 30:
+            print("You are a millennial")
+        else:
+            print("You are an adult")
