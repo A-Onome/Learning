@@ -7,4 +7,5 @@ resource "local_file" "First_file" {
 resource "random_pet" "test_pet" {
     prefix = "Mr"
     separator = "."
+    length = "2"
 }
